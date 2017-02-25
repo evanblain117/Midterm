@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>Evan Blain - Midterm</title>
+	<link href="style.css" rel="stylesheet" />
+	<script type="text/javascript" src="utilities.js"></script>
+	<script src="midtermdirectory.js" type="text/javascript"></script>
+</head>
+<body>
+	<h1>Evan Blain - Midterm</h1>
+	<form id="directory_form">
+		<fieldset>
+			<legend>Middle Georgia State University Directory</legend>	
+			<div class="tab">
+				<div class="tRow">
+					<div class="tCell">My Role:	
+					
+					<input type="checkbox" name="Faculty" id="Faculty" />Faculty</div>
+					<input type="checkbox" name="Staff" id="Staff" />Staff</div>					
+				</div><!-- END ROW -->
+				<div class="tRow">
+					<div class="tCell">Doctorate?					
+					<input type="checkbox" name="Doctorate" id="Doctorate" />Dr.</div>		
+					
+				</div><!-- END ROW -->	
+				<div class="tRow">
+					<div class="tCell"><label for="first_name">First Name:</label></div>
+					<div class="tCell">
+						<input type="text" id="first_name" />
+						<span id="err1"></span>
+					</div>					
+				</div><!-- END ROW -->
+				<div class="tRow">
+					<div class="tCell"><label for="last_name">Last Name:</label></div>
+					<div class="tCell">
+						<input type="text" id="last_name" />
+						<span id="err2"></span>
+					</div>
+				</div><!-- END ROW -->
+				<div class="tRow">
+					<div class="tCell"><label for="certifications">Certifications:</label></div>
+					<div class="tCell">
+						<input type="text" id="certifications" />
+						<span id="err3"></span>
+					</div>
+				</div><!-- END ROW -->
+				<div class="tRow">
+					<div class="tCell"><label for="title">Title:</label></div>
+					<div class="tCell">
+						<input type="text" id="title" />
+						<span id="err4"></span>
+					</div>
+				</div><!-- END ROW -->
+				<div class="tRow">
+					<div class="tCell"><label for="department">Department:</label></div>
+					<div class="tCell">
+						<select id="department">
+							<option value="">-Select One</option>
+							<option>School of Aviation</option>
+							<option>School of Health Sciences</option>
+							<option>School of Information Technology</option>
+							<option>Student Life</option>
+						</select>
+						<span id="err5"></span>
+					</div>
+				</div><!-- END ROW -->
+				<div class="tRow">
+					<div class="tCell"><label for="phone_number">Primary Phone #:</label></div>
+					<div class="tCell">
+						<input type ="text" id="phone_number" />
+						<span id="err6"></span>
+					</div>
+				</div><!-- END ROW -->
+				<div class="tRow">
+					<div class="tCell"><label for="website">Website:</label></div>
+					<div class="tCell">
+						<input type="text" id="website" />
+						<span id="err7"></span>
+					</div>
+				</div><!-- END ROW -->
+				<div class="tRow">
+					<div class="tCell"><label for="email">Email:</label></div>
+					<div class="tCell">
+						<input type="email" id="email" />
+						<span id="err8"></span>
+					</div>
+				</div><!-- END ROW -->
+				<div class="tRow">
+					<div class="tCell"><input type="button" id="reset_button" value="Reset" /></div>
+					<div class="tCell"><input type="button" id="display_button" value="Display" /></div>
+				</div><!-- END ROW -->
+			</div><!-- END TABLE -->
+			<br />
+			<div id="output"></div>
+		</fieldset>
+	</form>	
+</body>
+</html>
